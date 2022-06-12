@@ -1,7 +1,8 @@
 # https://jovian.ai/droste-benedikt/02-article-pytorch-multilabel-classification-v2/v/1?utm_source=embed#C2
 
 #Import suppporting libraries
-
+import statsmodels.api as sm
+from statsmodels.stats.outliers_influence import variance_inflation_factor
 import tarfile
 import urllib.request as urllib2
 import os
